@@ -1,0 +1,16 @@
+:root {
+    --pcolor: #ff8f00;
+    --scolor: #00b0ff;
+    --navbar: #263238; 
+    --bodyback: #006064;
+    --cardagenda: #00838f;
+}
+body {
+    background-color: var(--bodyback);
+}
+.card {
+    background-color: var(--cardagenda);
+    border-radius: 25px;
+    box-shadow: 5px solid var(--scolor);
+    color: white;
+}
